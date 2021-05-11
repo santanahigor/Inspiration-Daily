@@ -1,3 +1,4 @@
+
 window.onscroll = function() {myFunction()};
 
 // Get the header
@@ -14,6 +15,7 @@ function myFunction() {
    header.classList.remove("sticky");
  }
 }; 
+// stick header stills under development - 
 /////////////////////////////////////////////Button code below:
 console.log("Be inspired!");
 
