@@ -1,10 +1,10 @@
-    window.onscroll = function() {myFunction()};
+window.onscroll = function() {myFunction()};
 
 // Get the header
-var header = document.getElementById("myHeader");
+ var header = document.getElementById("myHeader");
 
 // Get the offset position of the navbar
-var sticky = header.offsetTop;
+ var sticky = header.offsetTop;
 
 // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
@@ -13,7 +13,7 @@ function myFunction() {
  } else {
    header.classList.remove("sticky");
  }
-} 
+}; 
 /////////////////////////////////////////////Button code below:
 console.log("Be inspired!");
 
@@ -33,6 +33,6 @@ var quotes = [
 
 var randomNum = Math.floor(Math.random() * quotes.length);
 function newQuote() {
-document.getElementById('sentence')= quotes[randomNum];
-}
+document.getElementById('sentence').innerHTML= quotes[randomNum];
+};
 

@@ -109,7 +109,8 @@ button {
 #sentence {
     color: #1b1b1b;
     text-align: center;
-    font-size: medium;
+    font-size: larger;
+    font-style: oblique;
     }
   
 
