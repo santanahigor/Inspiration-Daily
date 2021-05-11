@@ -12,6 +12,5 @@ Design due to be completed, and JS will be applied on a separate file.
 
 **Developers:**
 <br>
-Higor Santana, 
+ Higor Santana, 
 Kavitha Krishnan,
-
